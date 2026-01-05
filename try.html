@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <!-- jQuery + jQuery Mobile -->
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+<style>
+
+body { background: #f0f0f0; }
+
+        .header-bar, .footer-bar {
+            background: #0a7a1f;
+            color: white !important;
+        }
+
+        .hero {
+            background-image:url(https://pixnio.com/free-images/2017/05/10/2017-05-10-18-47-09.jpg);
+            height: 45vh;
+            background-size: cover;
+            background-position: center;
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            color:white;
+            font-size: 23px;
+            font-weight: bold;
+            text-shadow: 2px 2px 4px black;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        .btn-light {
+            background: #0a7a1f !important;
+            color: rgb(247, 244, 244) !important;
+            border: none;
+            margin-top: 10px;
+            font-weight: bold;
+            
+        }
+
+        .btn-light a {
+    background-color: #188646 !important;
+    color: white !important;
+    margin: 5px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+        .col-md-4 {
+            background:white;
+            border-radius: center;
+            padding:10px;
+            margin:10px 0;
+            box-shadow:0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        h2 { color:#131313; }
+</style>
+
+</head>
+
+<body>
+
+
+    <div data-role="page" id="Home" data-transition="slideup">
+        <div data-role="header" class=" ui-content header-bar">
+            <div class="btn-light">
+                <a href="#home">Home</a>
+                <a href="#page2">Gallery</a>
+                <a href="#page3"> Registration</a>
+            </div>
+        </div>
+
+
+<div role="main" class="ui-content">
+        <div class="hero text-center text-white d-flex align-items-center justify-content-center">
+            <h2> Discover MALAYSIA Naturally</h2>
+        </div>
+
+        <div class="col-md-4">
+            <h2> Objective</h2>
+            <p><h3>GO HOLIDAY WITH HAPPY MOOD!!</h3></p>
+        </div>
+
+        <div class="col-md-4">
+            <h2>Features Destination</h2>
+            <p><h3> See the Naturally nature with calm enviroment</h3></p>
+        </div>
+
+        <div class="col-md-4">
+            <h2>Tips</h2>
+            <p><h3>travel with us</h3></p>
+        </div>
+
+        <a href="#page2" data-role="button" class="btn btn-primary btn-block btn-light">Gallery</a>
+
+    </div>
+
+    <div role="footer" class="ui-content text-center" >Malaysia 2025 copyright</div>
+    </div>
+
+
+    <div data-role="page" id="page2" data-transition="slideup">
+        <div data-role="header" class="ui-content text-center" >
+            <h1>GALLERY</h1>
+        </div>
+
+
+        <div role="main" class="ui-content">
+            <div class="col-md-4">
+                <img src="G1.png" alt="description" class="card-image" height="300" width="300">
+                <div class="card-body">
+                    <h3 class="card-title"> Masjid Raya</h3>
+                </div>
+            </div>
+
+
+            <div class="col-md-4">
+                <img src="G2.png" alt="description" class="card-image" height="300" width="300">
+                <dic class="card-body">
+                    <h3 class="card-title">Pulau Sumatera</h3>
+                </dic>
+            </div>
+
+            <div class="col-md-4">
+                <img src="G3.png" alt="description" class="card-image" height="300" width="300">
+                <div class="card-body">
+                    <h3 class="card-title">Pulau Jeju</h3>
+                </div>
+            </div>
+
+
+            <div class="col-md-4">
+                <img src="G5.png" alt="description" class="card-image" height="300" width="300">
+                <div class="card=body">
+                    <h3 class="card-title"> Bukut nanas</h3>
+                </div>
+            </div>
+
+
+            <div class="col-md-4">
+                <img src="G4.png" alt="description" class="card-image" height="300" width="300">
+                <div class="card-body">
+                    <h3 class="card-title"> Gunung Lang</h3>
+                </div>
+            </div>
+
+
+            <div class="col-md-4">
+                <img src="G6.png" alt="description" class="card-image" height="300" width="300">
+                <div class="card-body">
+                    <h3 class="card-title"> Sungai Kinta</h3>
+                </div>
+            </div>
+        </div>
+
+
+    <a href="#page3" data-role="button" class="btn btn-primary btn-block btn-light">register</a>
+    <a href="#home" data-role="button" class=" btn btn-primary btn-block btn-light">Home</a> 
+   
+<div role="footer" class="ui-content text-center"> Malaysia 2025 copyright</div>
+
+</div>
+
+
+
+<div data-role="page" id="page3" data-transition="slidedown">
+    <div data-role="header" class="ui-content">
+        <H1>Registration </H1>
+    </div>
+
+
+    <div role="main" class="ui-content">
+
+       <form action="/action_page.php">
+    
+        <div class="form-group">
+            <label for="name">Full name</label>
+            <input type="name" class="form-control" id="name" placeholder="Enter name" name="name">
+        </div>
+
+
+        <div class="form-group">
+            <label for="Age"> Enter age</label>
+            <input type="age" class="form-control" id="age" placeholder="enter age" name="age">
+
+        </div>
+
+
+        <div class="form-group">
+            <label for="email"> enter email</label>
+            <input type="email" class="form-control" id="email" placeholder="enter email" name="email">
+        </div>
+
+
+        <div class="form-group">
+            <label for="destination">Destination</label>
+            <input type="destination" class="form-control" id="destination"placeholder= "enter destination" name="destination">
+        </div>
+
+
+
+        <div class="form-group">
+            <label for="message">message</label>
+            <input type="message" class="form-control" id="message" placeholder="Enter message" name="message">
+        </div>
+       </form>
+
+        <a onclick="validateForm()" class="btn btn-primary btn-block btn-light">Submit</a>
+
+       <br><br>
+       <a href="#page2" data-role="button" class=" btn btn-primary btn-block btn-light">Gallery</a>
+       <a href="#home" data-role="button" class="btn btn-primary btn-block btn-light"> Home</a>
+    </div>
+
+    <div role="footer" class="ui-content text-center"> Malaysia 2025 copyright</div>
+</div>
+
+
+
+<div data-role="page" data-dialog=true data-role="collapse" id="page4" class="ui-content text-center">
+    <legend><h1>Congratulation</h1></legend>
+    <p> already regiter</p>
+    <p> thankyou!!!!</p>
+
+
+    <div role="main" class="ui-content">
+        <ul>
+            <li> media sosial :<a href="instgram" > instagram</a></li>
+            <li> media sosial: <a href="facebook">facebook</a></li>
+            <li>email: <a href="email">hanayatulhanayatul@gmail.com</a> </li>
+            <li> contact us: <a href="0119237236"> 01164241597</a></li>
+        </ul>
+    </div>
+    <br><br>
+    <a href="#Home" data-role="button" class="btn btn-primary btn-block btn-light">back to home</a>
+</div>
+</div> 
+<script>
+
+    function validateForm() {
+    let name = document.getElementById("name").value.trim();
+    let age = document.getElementById("age").value.trim();
+    let email = document.getElementById("email").value.trim();
+    let destination = document.getElementById("destination").value.trim();
+    let message = document.getElementById("message").value.trim();
+
+    if (name === "" || age === "" || email === "" || destination === "" || message === "") {
+        alert("Please fill in all fields!");
+    } else {
+        alert("Success!");
+        $.mobile.changePage("#page4");
+    }
+}
+
+</script>
+
+
+    
+</body>
+
+
+</html>
